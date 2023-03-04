@@ -117,7 +117,7 @@ PlayerSection:NewSlider("Health", "Change your health", 10000, 100, function(s)
     Players.LocalPlayer.Character.Humanoid.Health = s
 end)
 
-PlayerSection:NewSlider("Jump Power", "Slide your jump power", 350, 50, function(s)
+PlayerSection:NewSlider("Jump Power", "Slide your jump power", 1000, 50, function(s)
     Players.LocalPlayer.Character.Humanoid.JumpPower = s
     Players.LocalPlayer.Character.Humanoid.UseJumpPower = true
 end)
